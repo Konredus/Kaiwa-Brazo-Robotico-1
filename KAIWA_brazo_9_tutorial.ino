@@ -19,7 +19,7 @@ Servo servo_codo;
 Servo servo_munhieca;
 Servo servo_pinza;
 
-#define debug                  //comentando o descomentando esta linea activo el codigo para debug
+//#define debug                  //comentando o descomentando esta linea activo el codigo para debug
 
 //------------------------------------Declaraciones de variables-------------------------------------------------
 
