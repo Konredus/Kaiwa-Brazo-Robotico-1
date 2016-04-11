@@ -59,7 +59,7 @@ void setup()
  Serial.begin(57600);
 #endif
           
-ps2x.config_gamepad(A2,A4,A3,A5, true, true);   //setup pins and settings:  GamePad(clock, command, attention, data, Pressures?, Rumble?) check for error
+ps2x.config_gamepad(A0,A2,A1,A3, true, true);   //setup pins and settings:  GamePad(clock, command, attention, data, Pressures?, Rumble?) check for error
 
 
 servo_base.attach(4);      //defino pines de los servos
